@@ -2,7 +2,7 @@
 
 This is a proof of concept to demonstrate that as long as you have your clipboard enabled over RDP, you can do things, even if some of the features have been disabled. This is only to demonstrate the limits of such protections.
 
-Some RDP clients/host are blocking the ability to copy/paste files over the RDP connection. In some cases, they have not disable the clipboard entirely but only restricted what can be used through it (see [[MS-RDPECLIP]](https://learn.microsoft.com/en-us/openspecs/windows_protocols/MS-RDPECLIP/fb9b7e0b-6db4-41c2-b83c-f889c1ee7688) I guess).
+Some RDP clients/host are blocking the ability to copy/paste files over the RDP connection. In some cases, they have not disabled the clipboard entirely but only restricted what can be used through it (see [[MS-RDPECLIP]](https://learn.microsoft.com/en-us/openspecs/windows_protocols/MS-RDPECLIP/fb9b7e0b-6db4-41c2-b83c-f889c1ee7688) I guess).
 
 The clipin function is doing the following on the target server (where the file is):
 1. Takes a path in input.
