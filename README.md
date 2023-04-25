@@ -16,3 +16,6 @@ Then on the client (where you want to copy the file to):
 1. Open a PowerShell console and just paste what you have in your clipboard
 
 Here is a video to demo the usage:
+
+https://user-images.githubusercontent.com/22434561/234328728-6c08a4ba-d575-40b9-8898-0e5e23e1bbf4.mp4
+
