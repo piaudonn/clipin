@@ -2,7 +2,7 @@ function clipin ($path)
 {
     If ( (Test-Path $path) -eq $true )
     {
-        $dest = "$path.zip"
+        $dest = (Get-Location).Path + "$path.zip"
         Compress-Archive -Path $path -CompressionLevel Optimal -DestinationPath $dest -Update
         $data = [System.Convert]::ToBase64String([System.IO.File]::ReadAllBytes($dest))
         $inject =  "Add-Type -AssemblyName System.Windows.Forms`n"
